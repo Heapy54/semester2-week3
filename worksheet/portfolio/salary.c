@@ -20,16 +20,18 @@ int main( void ) {
    float taxable_salary;
 
    //input the values
-   /*
-   scanf("%d", &salary);
+   
+   scanf("%f", &salary);
    scanf("%d", &NI_rate);
    scanf("%d", &Tax_rate);
-   */
+   
 
    //submit to gradescope
+   /*
    salary = 36250;
    NI_rate = 8;
    Tax_rate = 15;
+   */
 
    //calculate NI amount
    NI = salary*(NI_rate / 100.0);
