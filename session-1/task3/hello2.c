@@ -1,4 +1,4 @@
-
+#include <stdio.h>
 /*
  * Hello world program
  * - compilation errors

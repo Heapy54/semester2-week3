@@ -33,4 +33,6 @@ Make a note of the size of the file for comparison with C later.
 You can find the size of a file using
 
   `ls -al`
+
+4096
   
