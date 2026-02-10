@@ -49,10 +49,10 @@ int main( void ) {
     // calculate the deductions and final take-home salary
    take_home = take_home - Tax;
     // Use only these print statement with appropriate formatting and variable names
-   printf("Salary £%d", salary);
-   printf("NI contribution £%f",NI);
-   printf("Tax contribution £%f",Tax);
-   printf("Take home salary £%f",take_home);
+   printf("Salary £%d\n", salary);
+   printf("NI contribution £%.2f\n",NI);
+   printf("Tax contribution £%.2f\n",Tax);
+   printf("Take home salary £%.2f\n",take_home);
 
    return 0;
 }
