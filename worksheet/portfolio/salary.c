@@ -3,13 +3,14 @@
 
 /*
  * Potrfolio submission
- * Name:
- * ID:
+ * Name:Daniel Heap
+ * ID:201968718
  */
 
  int main( void ) {
 
     // define and initialise variables for the problem data 
+    
 
     // calculate the deductions and final take-home salary
 
