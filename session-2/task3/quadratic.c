@@ -11,9 +11,9 @@
 
 int main( void ) {
 
-    float a = 1.0;
-    float b = -5.0;
-    float c = 6.0;
+    float a;
+    float b;
+    float c;
     float root1, root2;
 
     /*
@@ -21,6 +21,23 @@ int main( void ) {
      * You can define additional variable for intermediate results to make the code simpler.
      * Print out the final results for the 2 roots as float values.
      */
+
+    printf("Enter the a value: ");
+    scanf("%f",&a);
+
+    printf("Enter the b value: ");
+    scanf("%f",&b);
+
+    printf("Enter the c value: ");
+    scanf("%f",&c);
+
+    float discriminant = sqrt((b*b)-(4*a*c));
+    root1 = ((-b+discriminant)/(2*a));
+    root2 = ((-b-discriminant)/(2*a));
+
+    printf("The first root is: %f\n",root1);
+    printf("The second root is: %f\n",root2);
+
 
     
 
